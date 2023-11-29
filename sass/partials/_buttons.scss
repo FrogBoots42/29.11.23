@@ -7,3 +7,9 @@
   font-family: inherit;
   font-weight: inherit;
 }
+
+&-btnBlue {
+  background-color: scale-color($bluebtn, $lightness: 50%);
+  border-color: $bluebtn;
+  color: scale-color($bluebtn, $lightness: 50%);
+}
